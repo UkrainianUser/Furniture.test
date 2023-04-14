@@ -5,25 +5,33 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Furniture.test</title>
+		<link rel="stylesheet" href="./style.css" />
 	</head>
 	<body>
 		<header class="header">
-			<div class="container">
 				<div class="header-nav">
 					<div class="contacts">
-						<span>Ми в соціальних мережах:</span>
+						<span class="contacts__text">Ми в соціальних мережах:</span>
 						<ul class="social">
 							<li class="social__item">
-								<a href="#" class="social__link"></a>Telegram
+								<a href="#" class="social__link">
+									<img src="./images/telegram.svg" alt="telegram icon">
+								</a>
 							</li>
 							<li class="social__item">
-								<a href="#" class="social__link"></a>Facebook
+								<a href="#" class="social__link">
+									<img src="./images/facebook.svg" alt="facebook icon">
+								</a>
 							</li>
 							<li class="social__item">
-								<a href="#" class="social__link">Instagram</a>
+								<a href="#" class="social__link">
+									<img src="./images/instagram.svg" alt="instagram icon">
+								</a>
 							</li>
 						</ul>
-						<div class="phone">(099) 111 22 33</div>
+						<div class="phone">
+							<img src="./images/smartphone.svg" alt="smartphone icon">
+						<a class="phone__number" href="tel:099-111-22-33">(099) 111 22 33</a></div>
 					</div>
 					<ul class="nav">
 						<li class="nav__item"><a href="#" class="nav__link">Головна</a></li>
@@ -71,7 +79,6 @@
 					</a>
 					<button class="callback" type="button">Замовити дзвінок</button>
 				</div>
-			</div>
 		</header>
 		<main>
 			<section class="hero">
@@ -87,115 +94,123 @@
 				</div>
 			</section>
 			<section class="advantages">
-				<h2 class="section-title">Наші переваги</h2>
-				<ul class="advantages__slider">
-					<li class="advantages__slide">
-						<img src="#" alt="" />
-						<h3>Меблі преміум класу</h3>
-						<p></p>
-					</li>
-					<li class="advantages__slide">
-						<img src="#" alt="" />
-						<h3>Надійність</h3>
-						<p>
-							За 14 років на ринку меблів для дому ми стали надійними партнерами
-							на ринку Вінницької області та України
-						</p>
-					</li>
-					<li class="advantages__slide">
-						<img src="#" alt="" />
-						<h3>Безкоштовна доставка</h3>
-						<p></p>
-					</li>
-				</ul>
+				<div class="container">
+					<h2 class="section-title">Наші переваги</h2>
+					<ul class="advantages__slider">
+						<li class="advantages__slide">
+							<img src="#" alt="" />
+							<h3>Меблі преміум класу</h3>
+							<p></p>
+						</li>
+						<li class="advantages__slide">
+							<img src="#" alt="" />
+							<h3>Надійність</h3>
+							<p>
+								За 14 років на ринку меблів для дому ми стали надійними партнерами
+								на ринку Вінницької області та України
+							</p>
+						</li>
+						<li class="advantages__slide">
+							<img src="#" alt="" />
+							<h3>Безкоштовна доставка</h3>
+							<p></p>
+						</li>
+					</ul>
+				</div>
 			</section>
 			<section class="categories">
-				<ul class="categories__icons-list">
-					<li class="categories__icon-item">
-						<img src="#" alt="" class="categories__icon" />
-						<span>Дивани</span>
-					</li>
-					<li class="categories__icon-item">
-						<img src="#" alt="" class="categories__icon" />
-						<span>Ліжка</span>
-					</li>
-					<li class="categories__icon-item">
-						<img src="#" alt="" class="categories__icon" />
-						<span>Крісла</span>
-					</li>
-					<li class="categories__icon-item">
-						<img src="#" alt="" class="categories__icon" />
-						<span>Комоди</span>
-					</li>
-					<li class="categories__icon-item">
-						<img src="#" alt="" class="categories__icon" />
-						<span>Шафи</span>
-					</li>
-					<li class="categories__icon-item">
-						<img src="#" alt="" class="categories__icon" />
-						<span>Кухня</span>
-					</li>
-				</ul>
-				<ul class="categories__cards-list">
-					<li class="categories__card">
-						<img src="#" alt="" />
-						<p></p>
-					</li>
-					<li class="categories__card">
-						<img src="#" alt="" />
-						<p></p>
-					</li>
-					<li class="categories__card">
-						<img src="#" alt="" />
-						<p></p>
-					</li>
-					<li class="categories__card">
-						<img src="#" alt="" />
-						<p></p>
-					</li>
-					<li class="categories__card">
-						<img src="#" alt="" />
-						<p></p>
-					</li>
-					<li class="categories__card">
-						<img src="#" alt="" />
-						<p></p>
-					</li>
-				</ul>
-				<button class="categories__btn">В каталог</button>
+				<div class="container">
+					<ul class="categories__icons-list">
+						<li class="categories__icon-item">
+							<img src="#" alt="" class="categories__icon" />
+							<span>Дивани</span>
+						</li>
+						<li class="categories__icon-item">
+							<img src="#" alt="" class="categories__icon" />
+							<span>Ліжка</span>
+						</li>
+						<li class="categories__icon-item">
+							<img src="#" alt="" class="categories__icon" />
+							<span>Крісла</span>
+						</li>
+						<li class="categories__icon-item">
+							<img src="#" alt="" class="categories__icon" />
+							<span>Комоди</span>
+						</li>
+						<li class="categories__icon-item">
+							<img src="#" alt="" class="categories__icon" />
+							<span>Шафи</span>
+						</li>
+						<li class="categories__icon-item">
+							<img src="#" alt="" class="categories__icon" />
+							<span>Кухня</span>
+						</li>
+					</ul>
+					<ul class="categories__cards-list">
+						<li class="categories__card">
+							<img src="#" alt="" />
+							<p></p>
+						</li>
+						<li class="categories__card">
+							<img src="#" alt="" />
+							<p></p>
+						</li>
+						<li class="categories__card">
+							<img src="#" alt="" />
+							<p></p>
+						</li>
+						<li class="categories__card">
+							<img src="#" alt="" />
+							<p></p>
+						</li>
+						<li class="categories__card">
+							<img src="#" alt="" />
+							<p></p>
+						</li>
+						<li class="categories__card">
+							<img src="#" alt="" />
+							<p></p>
+						</li>
+					</ul>
+					<button class="categories__btn">В каталог</button>
+				</div>
 			</section>
 			<section class="about-us">
-				<h2 class="section-title">Про нас</h2>
-				<p class="about-us__text">
-					"Furniture" – "Lorem ipsum dolor sit amet, consectetur adipiscing
-					elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-					aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-					laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-					in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-					pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-					culpa qui officia deserunt mollit anim id est laborum."
-				</p>
-				<p class="about-us__text">
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat. Duis aute irure dolor in
-					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-					pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-					culpa qui officia deserunt mollit anim id est laborum."
-				</p>
-				<p class="about-us__text">
-					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat. Duis aute irure
-				</p>
-				<img src="./images/about-us.jpg" alt="" class="about-us__img" />
+				<div class="container">
+					<h2 class="section-title">Про нас</h2>
+					<p class="about-us__text">
+						"Furniture" – "Lorem ipsum dolor sit amet, consectetur adipiscing
+						elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+						aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+						in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+						pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+						culpa qui officia deserunt mollit anim id est laborum."
+					</p>
+					<p class="about-us__text">
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+						minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+						aliquip ex ea commodo consequat. Duis aute irure dolor in
+						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+						pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+						culpa qui officia deserunt mollit anim id est laborum."
+					</p>
+					<p class="about-us__text">
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+						minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+						aliquip ex ea commodo consequat. Duis aute irure
+					</p>
+					<img src="./images/about-us.jpg" alt="" class="about-us__img" />
+				</div>
 			</section>
 			<section class="questions">
-				<img src="./images/questions.jpg" alt="" class="questions__img" />
-				<h2 class="section-title">Залишились питання?</h2>
-				<form action=""></form>
+				<div class="container">
+					<img src="./images/questions.jpg" alt="" class="questions__img" />
+					<h2 class="section-title">Залишились питання?</h2>
+					<form action=""></form>
+				</div>
 			</section>
 		</main>
 		<footer class="footer">

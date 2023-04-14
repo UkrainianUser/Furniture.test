@@ -189,4 +189,7 @@ body {
 .hero {
   min-height: 785px;
   background-image: url(./images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

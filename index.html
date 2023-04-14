@@ -85,91 +85,129 @@
 				<div class="container">
 					<h1 class="visually-hidden">Furniture</h1>
 					<div class="news-card">
-						<p>Новинка!</p>
-						<h3>Ліжко Ornella</h3>
-						<p>Це новий рівень комфортного сну</p>
+						<p class="news-card__baner">Новинка!</p>
+						<h3 class="article-name">Ліжко Ornella</h3>
+						<p class="article-desc">Це новий рівень комфортного сну</p>
 						<button class="news-card__btn" type="button">Детальніше</button>
-						<div class="news-card__pagination"></div>
+						<div class="pagination">
+							<div class="pagination__count">
+								<span class="pagination__count-current">01</span>
+								<span class="pagination__count-total">04</span>
+							</div>
+							<div class="pagination__btns">
+								<button class="pagination__btn-prev arrow-btn" type="button"><img src="./images/arrow-left.svg" alt="arrow-left"></button>
+								<button class="pagination__btn-next arrow-btn" type="button"><img src="./images/arrow-right.svg" alt="arrow-right"></button>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
 			<section class="advantages">
 				<div class="container">
-					<h2 class="section-title">Наші переваги</h2>
-					<ul class="advantages__slider">
-						<li class="advantages__slide">
-							<img src="#" alt="" />
-							<h3>Меблі преміум класу</h3>
-							<p></p>
-						</li>
-						<li class="advantages__slide">
-							<img src="#" alt="" />
-							<h3>Надійність</h3>
-							<p>
-								За 14 років на ринку меблів для дому ми стали надійними партнерами
-								на ринку Вінницької області та України
-							</p>
-						</li>
-						<li class="advantages__slide">
-							<img src="#" alt="" />
-							<h3>Безкоштовна доставка</h3>
-							<p></p>
-						</li>
-					</ul>
+					<h2 class="section-title"><span class="first-letter-bg"></span>Наші переваги</h2>
+					<div class="slider-wrapper">
+						<ul class="advantages__slider">
+							<li class="advantages__slide">
+								<img src="./images/advantages1.jpg" alt="dining room" />
+								<h3 class="advantages__subtitle">Меблі преміум класу</h3>
+								<p class="advantages__text">
+									За 14 років на ринку меблів для дому ми стали надійними партнерами
+									на ринку Вінницької області та України
+								</p>
+							</li>
+							<li class="advantages__slide">
+								<img src="./images/advantages2.jpg" alt="people at a meeting" />
+								<h3 class="advantages__subtitle">Надійність</h3>
+								<p class="advantages__text">
+									За 14 років на ринку меблів для дому ми стали надійними партнерами
+									на ринку Вінницької області та України
+								</p>
+							</li>
+							<li class="advantages__slide">
+								<img src="./images/advantages3.jpg" alt="orange truck" />
+								<h3 class="advantages__subtitle">Безкоштовна доставка</h3>
+								<p class="advantages__text">
+									За 14 років на ринку меблів для дому ми стали надійними партнерами
+									на ринку Вінницької області та України
+								</p>
+							</li>
+						</ul>
+						<button class="advantages__btn-prev arrow-btn" type="button"><img src="./images/arrow-left.svg" alt="arrow-left"></button>
+						<button class="advantages__btn-next arrow-btn" type="button"><img src="./images/arrow-right.svg" alt="arrow-right"></button>
+					</div>
 				</div>
 			</section>
 			<section class="categories">
 				<div class="container">
+					<h2 class="section-title"><span class="first-letter-bg"></span>Категорії товарів</h2>
 					<ul class="categories__icons-list">
 						<li class="categories__icon-item">
-							<img src="#" alt="" class="categories__icon" />
+							<img src="./images/living-room.svg" alt="icon" class="categories__icon" />
 							<span>Дивани</span>
 						</li>
 						<li class="categories__icon-item">
-							<img src="#" alt="" class="categories__icon" />
+							<img src="./images/bed.svg" alt="icon" class="categories__icon" />
 							<span>Ліжка</span>
 						</li>
 						<li class="categories__icon-item">
-							<img src="#" alt="" class="categories__icon" />
+							<img src="./images/armchair.svg" alt="icon" class="categories__icon" />
 							<span>Крісла</span>
 						</li>
 						<li class="categories__icon-item">
-							<img src="#" alt="" class="categories__icon" />
+							<img src="./images/commode.svg" alt="icon" class="categories__icon" />
 							<span>Комоди</span>
 						</li>
 						<li class="categories__icon-item">
-							<img src="#" alt="" class="categories__icon" />
+							<img src="./images/wardrobe.svg" alt="icon" class="categories__icon" />
 							<span>Шафи</span>
 						</li>
 						<li class="categories__icon-item">
-							<img src="#" alt="" class="categories__icon" />
+							<img src="./images/kitchen.svg" alt="icon" class="categories__icon" />
 							<span>Кухня</span>
 						</li>
 					</ul>
 					<ul class="categories__cards-list">
 						<li class="categories__card">
-							<img src="#" alt="" />
-							<p></p>
+							<img src="./images/romana.jpg" alt="bed" />
+							<div class="categories__wrapper">
+								<span class="categories__name">Ліжко Рамона</span>
+								<span class="categories__price">8 999 грн</span>
+							</div>
 						</li>
 						<li class="categories__card">
-							<img src="#" alt="" />
-							<p></p>
+							<img src="./images/chester.jpg" alt="bed" />
+							<div class="categories__wrapper">
+								<span class="categories__name">Ліжко Честер</span>
+								<span class="categories__price">8 999 грн</span>
+							</div>
 						</li>
 						<li class="categories__card">
-							<img src="#" alt="" />
-							<p></p>
+							<img src="./images/venecia.jpg" alt="bed" />
+							<div class="categories__wrapper">
+								<span class="categories__name">Ліжко Венеція люкс</span>
+								<span class="categories__price">8 999 грн</span>
+							</div>
 						</li>
 						<li class="categories__card">
-							<img src="#" alt="" />
-							<p></p>
+							<img src="./images/imperia.jpg" alt="bed" />
+							<div class="categories__wrapper">
+								<span class="categories__name">Ліжко Імперія</span>
+								<span class="categories__price">8 999 грн</span>
+							</div>
 						</li>
 						<li class="categories__card">
-							<img src="#" alt="" />
-							<p></p>
+							<img src="./images/adel.jpg" alt="bed" />
+							<div class="categories__wrapper">
+								<span class="categories__name">Ліжко Адель</span>
+								<span class="categories__price">8 999 грн</span>
+							</div>
 						</li>
 						<li class="categories__card">
-							<img src="#" alt="" />
-							<p></p>
+							<img src="./images/atlant.jpg" alt="bed" />
+							<div class="categories__wrapper">
+								<span class="categories__name">Ліжко Атлант</span>
+								<span class="categories__price">8 999 грн</span>
+							</div>
 						</li>
 					</ul>
 					<button class="categories__btn">В каталог</button>
@@ -177,7 +215,7 @@
 			</section>
 			<section class="about-us">
 				<div class="container">
-					<h2 class="section-title">Про нас</h2>
+					<h2 class="section-title"><span class="first-letter-bg"></span>Про нас</h2>
 					<p class="about-us__text">
 						"Furniture" – "Lorem ipsum dolor sit amet, consectetur adipiscing
 						elit, sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -208,7 +246,7 @@
 			<section class="questions">
 				<div class="container">
 					<img src="./images/questions.jpg" alt="" class="questions__img" />
-					<h2 class="section-title">Залишились питання?</h2>
+					<h2 class="section-title"><span class="first-letter-bg"></span>Залишились питання?</h2>
 					<form action=""></form>
 				</div>
 			</section>

@@ -17,6 +17,7 @@
   --primary-black-color: #1e2e36;
   --primary-white-color: #ffffff;
   --accent-color: #44c697;
+  --action-color: #ff1b1b;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -446,7 +447,13 @@ justify-content: center;
 }
 
 .categories__card {
+  position: relative;
   max-width: 586px;
+}
+
+.categories__card:hover .categories__wrapper {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 .categories__wrapper {
@@ -471,6 +478,29 @@ justify-content: center;
   border: none;
   cursor: pointer;
   margin: 0 auto;
+}
+
+.categories__marker {
+  position: absolute;
+  top: 10px;
+  background-color: var(--primary-black-color);
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  padding: 5px 15px;
+}
+.categories__action {
+  position: absolute;
+  top: 52px;
+  background-color: var(--action-color);
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  padding: 5px 15px;
 }
 
 .about-us {

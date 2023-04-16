@@ -182,7 +182,7 @@
 							</svg>
 							<span>Дивани</span>
 						</li>
-						<li class="categories__icon-item">
+						<li class="categories__icon-item current">
 							<svg class="categories__icon" width="100px" height="100px">
 								<use href="./images/sprite.svg#icon-bed"></use>
 							</svg>
@@ -383,28 +383,30 @@
 									href="https://www.google.com/maps/dir//49.234384,28.394405/@49.2342276,28.3916801,16z"
 									class="location__link"
 								>
-									<img
-										class="location__icon"
-										src="./images/location.svg"
-										alt="icon"
-									/>
+									<svg class="location__icon" width="24px" height="24px">
+										<use href="./images/sprite.svg#icon-location"></use>
+									</svg>
 									<span>TEST</span>
 								</a>
 							</div>
 							<div class="work-time">
-								<img src="./images/work-time.svg" alt="icon" />
+								<svg class="phone__icon" width="24px" height="24px">
+									<use href="./images/sprite.svg#icon-work-time"></use>
+								</svg>
 								<span>Пн-Пт, з 10 до 18</span>
 							</div>
-							<div class="phone">
-								<img
-									class="phone__icon"
-									src="./images/smartphone.svg"
-									alt="smartphone icon"
-								/>
-								<a class="phone__number" href="tel:099-111-22-33"
-									>(099) 111 22 33</a
+							<div class="phone phone-footer">
+								<a class="phone__number" href="tel:099-111-22-33">
+									<span class="phone__img">
+										<svg class="phone__icon" width="24px" height="24px">
+											<use href="./images/sprite.svg#icon-smartphone"></use>
+										</svg>
+									</span>
+									(099) 111 22 33</a
 								>
-								<a class="phone__number" href="tel:099-222-33-44"
+								<a
+									class="phone__number phone-footer__res"
+									href="tel:099-222-33-44"
 									>(099) 222 33 44</a
 								>
 							</div>
@@ -413,17 +415,23 @@
 						<ul class="social">
 							<li class="social__item">
 								<a href="#" class="social__link">
-									<img src="./images/telegram.svg" alt="telegram icon" />
+									<svg class="social__icon" width="22px" height="22px">
+										<use href="./images/sprite.svg#icon-telegram"></use>
+									</svg>
 								</a>
 							</li>
 							<li class="social__item">
 								<a href="#" class="social__link">
-									<img src="./images/facebook.svg" alt="facebook icon" />
+									<svg class="social__icon" width="22px" height="22px">
+										<use href="./images/sprite.svg#icon-facebook"></use>
+									</svg>
 								</a>
 							</li>
 							<li class="social__item">
 								<a href="#" class="social__link">
-									<img src="./images/instagram.svg" alt="instagram icon" />
+									<svg class="social__icon" width="22px" height="22px">
+										<use href="./images/sprite.svg#icon-instagram"></use>
+									</svg>
 								</a>
 							</li>
 						</ul>
@@ -432,7 +440,16 @@
 
 				<div class="footer__cop">
 					<div>© ТОВ Furniture, працюємо з 2006 року</div>
-					<div>Глянець — розробка інтернет-магазинів</div>
+					<div>
+						<a href="https://glyanec.net/ua" class="footer__cop-link">
+							<span>
+								<svg class="location__icon" width="16px" height="17px">
+									<use href="./images/sprite.svg#icon-glanec"></use>
+								</svg>
+							</span>
+							Глянець — розробка інтернет-магазинів</a
+						>
+					</div>
 				</div>
 			</div>
 			<div class="footer__picture">
